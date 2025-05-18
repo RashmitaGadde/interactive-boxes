@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ff6b9c;
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .badge {
+    background: #ff6b9c;
+    color: white;
+    margin-left: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 2px 6px;
+
+  }
+  
+  .price {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .price small {
+    display: block;
+    text-decoration: line-through;
+    color: #aaa;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  
+  .box-content {
+    padding: 15px;
+    display: none;
+    background-color: #fff5f7;
+  }
+  
+  .box.active {
+    border: 2px solid #ff6b9c;
+  }
+  
+  .box.active .box-content {
+    display: block;
+  }
+  
+  .options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .options label {
+    flex: 1;
+  }
+  
+  .summary {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .summary p {
+    color: #ff6b9c;
+    margin: 10px 0;
+  }
+  
+  button {
+    background: #ff6b9c;
+    color: white;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 15px;
+
+  }
+
+  
